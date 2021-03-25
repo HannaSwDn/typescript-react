@@ -1,12 +1,20 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <p>Very nice Netherlands quiz</p>
-    </div>
-  );
+const App = () => {
+  const startTrivia = async () => {
+
+  }
+
+  const checkAnswer = (event: React.MouseEvent<HTMLButtonElement>) => {
+
+  }
+
+  const nextQuestion = () => {
+    
+  }
+
+  return <div className="App">Very nice quiz</div>
 }
 
 export default App;
